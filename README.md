@@ -6,11 +6,11 @@ This is one of the course project materials for HKUST ELEC-5140 **Advanced Compu
 
 ## Project Tree
 
-1. **RV32i** directory contains a Vivado project of RISC-V CPU written in verilog, which implements a 5-stage single-issue processor, supporting 31 basic instructions from [RV32I base instruction set](https://riscv.org/wp-content/uploads/2019/12/riscv-spec-20191213.pdf#page=148).
+1. **[RV32i](https://github.com/RipperJ/RISC-V_CPU/tree/main/RV32i)** directory contains a Vivado project of RISC-V CPU written in verilog, which implements a 5-stage single-issue processor, supporting 31 basic instructions from [RV32I base instruction set](https://riscv.org/wp-content/uploads/2019/12/riscv-spec-20191213.pdf#page=148).
 
-2. **RISC-V_Assembler** directory contains an assembler to translate RISC-V instruction assembly into hexadecimal format, which could be easily directly loaded to instruction memory through `$readmemh` during Vivado simulation.
+2. **[RISC-V_Assembler](https://github.com/RipperJ/RISC-V_CPU/tree/main/RISC-V_Assembler)** directory contains an assembler to translate RISC-V instruction assembly into hexadecimal format, which could be easily directly loaded to instruction memory through `$readmemh` during Vivado simulation.
 
-3. **tests** directory contains benchmark written in RV32i assembly. Vec_Mul is a basic coding example.
+3. **[tests](https://github.com/RipperJ/RISC-V_CPU/tree/main/tests)** directory contains benchmark written in RV32i assembly. Vec_Mul is a basic coding example.
 
 ***
 
@@ -88,6 +88,6 @@ ADD s2, t1, t1 // also OK
 ***
 
 ## Reference Link for students
-1. [The RISC-V Instruction Set Manual](https://riscv.org/wp-content/uploads/2019/12/riscv-spec-20191213.pdf)
+* [The RISC-V Instruction Set Manual](https://riscv.org/wp-content/uploads/2019/12/riscv-spec-20191213.pdf)
     * [RV32i Registers](https://riscv.org/wp-content/uploads/2019/12/riscv-spec-20191213.pdf#page=155): only x0 ~ x31 are used here.
     * [RV32I base instruction set](https://riscv.org/wp-content/uploads/2019/12/riscv-spec-20191213.pdf#page=148)

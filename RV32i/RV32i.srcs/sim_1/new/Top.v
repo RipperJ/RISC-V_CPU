@@ -85,6 +85,7 @@ module Top;
         clk = ~clk;
         #1;
         if (Data_RAM[0] == 32'b1) begin             // The first entry of data memory is set to 1 after execution, please check `....../[RV32i directory]/Vec_Mul.txt` assembly code
+            $display("Simulation cycle count: %t\n", $time);
             $stop;
         end
     end

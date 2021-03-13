@@ -9,3 +9,10 @@
 # Log file: D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/vivado.log
 # Journal file: D:/2021Spring/Arch/Project/RISC-V CPU/RV32i\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project {D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/Top_behav.wcfg}
+source Top.tcl
+relaunch_sim

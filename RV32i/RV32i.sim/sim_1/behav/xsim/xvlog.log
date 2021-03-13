@@ -1,0 +1,38 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Control_Stall.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Stall
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Controler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controler
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Data_Stall.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Stall
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Get_rw_regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Get_rw_regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/ID_Zero_Generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_Zero_Generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/LUI_or_AUIPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LUI_or_AUIPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Mux2to1b32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2to1b32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Mux4to1b32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4to1b32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_EXE_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_EXE_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_ID_EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_ID_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/RV32iPCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32iPCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/SignExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sim_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
