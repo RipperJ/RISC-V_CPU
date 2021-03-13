@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Mar 12 22:11:34 2021
+# Process ID: 3236
+# Current directory: D:/2021Spring/Arch/Project/RV32i
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent40148 D:\2021Spring\Arch\Project\RV32i\RV32i.xpr
+# Log file: D:/2021Spring/Arch/Project/RV32i/vivado.log
+# Journal file: D:/2021Spring/Arch/Project/RV32i\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/2021Spring/Arch/Project/RV32i/RV32i.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/2021Spring/Arch/Project/RV32i/Top_behav.wcfg
+source Top.tcl
+relaunch_sim
+close_sim

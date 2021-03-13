@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Mar 12 22:13:45 2021
+# Process ID: 32920
+# Current directory: D:/2021Spring/Arch/Project/RV32i
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22364 D:\2021Spring\Arch\Project\RV32i\RV32i.xpr
+# Log file: D:/2021Spring/Arch/Project/RV32i/vivado.log
+# Journal file: D:/2021Spring/Arch/Project/RV32i\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/2021Spring/Arch/Project/RV32i/RV32i.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1036.238 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 12 22:19:35 2021...

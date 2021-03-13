@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Mar 12 10:26:34 2021
+# Process ID: 39524
+# Current directory: D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim/xsim.dir/Top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim/xsim.dir/Top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim/xsim.dir/Top_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Mar 12 10:26:37 2021. For additional details about this file, please refer to the WebTalk help file at D:/Software/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 12 10:26:37 2021...

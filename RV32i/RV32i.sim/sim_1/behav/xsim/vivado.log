@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Mar 12 22:20:54 2021
+# Process ID: 39840
+# Current directory: D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33512 D:\2021Spring\Arch\Project\RV32i\RV32i.sim\sim_1\behav\xsim\Top_behav.wdb
+# Log file: D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim/vivado.log
+# Journal file: D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {D:\2021Spring\Arch\Project\RV32i\RV32i.sim\sim_1\behav\xsim\Top_behav.wdb}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/Xilinx/Vivado/2020.1/data/ip'.
+open_wave_database: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1036.238 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 12 22:21:28 2021...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Mar 12 10:23:16 2021
+# Process ID: 36516
+# Current directory: D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim/xsim.dir/Top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/2021Spring/Arch/Project/RV32i/RV32i.sim/sim_1/behav/xsim/xsim.dir/Top_behav/webtalk/xsim_webtalk.tcl -notrace

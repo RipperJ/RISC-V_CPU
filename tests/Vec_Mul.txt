@@ -1,0 +1,68 @@
+// Hint 1: A label looks like this:
+Start:
+// Hint 2: you can use '//' or '#' to make comments
+
+// In Memory 
+//// Vector A: length 10
+//// then Vector B: length 10
+//// then Vector C: length 10
+//// This program plays C = A * B
+
+addi s1, x0, 4  # A matrix base address
+addi s2, s1, 40 # B matrix base address
+addi s3, s2, 40 # C matrix base address
+addi s4, s3, 40 # end of C matrix
+
+// 1. Prepare data in A
+addi t3, x0, 1 # value to be initialized to vector A (1 ~ 10)
+addi t1, s1, 0 # for (i = 0; ...
+InitA:
+
+sw t3, 0(t1)   # A[i] = i;
+
+addi t1, t1, 4 # ... i += 1)
+addi t3, t3, 1 # increment value
+slt t2, t1, s2 # ... i < 10; ...
+bne t2, x0, InitA
+
+// 2. Prepare data in B
+addi t3, x0, 1 # value to be initialized to vector B (also 1 ~ 10)
+addi t1, s2, 0 # for (i = 0; ...
+InitB:
+
+sw t3, 0(t1)   # B[i] = i;
+
+addi t1, t1, 4 # ... i += 1)
+addi t3, t3, 1 # increment value
+slt t2, t1, s3 # ... i < 10; ...
+bne t2, x0, InitB
+
+// 3. Do `C = A * B`, element by element
+addi t1, s1, 0  # -----
+addi t2, s2, 0
+addi t3, s3, 0
+VecMul:
+
+lw a0, 0(t1)    # ---
+lw a1, 0(t2)
+addi s5, x0, 0
+addi t5, x0, 0
+Mul:
+
+add s5, s5, a0
+
+addi t5, t5, 1
+slt t6, t5, a1
+bne t6, x0, Mul # ---
+
+sw s5, 0(t3)
+
+addi t1, t1, 4
+addi t2, t2, 4
+addi t3, t3, 4
+slt t4, t3, s4
+bne t4, x0, VecMul # -----
+
+// 4. set memory[0] to 1, which means finished
+addi t1, x0, 1
+sw t1, 0(x0)

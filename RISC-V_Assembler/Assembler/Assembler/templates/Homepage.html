@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Welcome!</title>
+</head>
+<body style="background-color:bisque;">
+    <h1 align="center">Reconfigurable System Lab RISC-V Assembler<br /><br /></h1>  
+    <!-- and Disassembler -->
+    <table align="center">
+        <tr>
+            <td>
+                <form align="center" action="/assemble" method="post">
+                    <table align="center">
+                        <tr>
+                            <td><textarea name="asm" rows="30" cols="50" wrap="soft" style="font-family:Consolas; border:groove; border-radius:10px" >{{Disassembled}}</textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Assemble" style="font-family:Consolas; border:groove; border-radius:3px; background:border-box; background-color:Highlight"></td>
+                        </tr>
+                        <tr>
+                            <td><p style="color:red; font-family:Arial">{{WrongAssemble}}&nbsp;</p></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+            <td>&emsp;&emsp;</td>
+            <td>
+                <form align="center" action="/disassemble" method="post">
+                    <table align="center">
+                        <tr>
+                            <td>
+                                <textarea name="hex" rows="30" cols="50" wrap="soft" style="font-family:Consolas; border:groove; border-radius:10px" >{{Assembled}}</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- <input type="submit" value="Disassemble" style="font-family:Consolas; border:groove; border-radius:3px; background:border-box; background-color:Highlight"> -->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p style="color:red; font-family:Arial">{{WrongDisassemble}}&nbsp;</p></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

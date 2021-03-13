@@ -1,0 +1,24 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sim_1/new/Top.v,1615558768,verilog,,,,Top,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/ALU.v,1615538346,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Control_Stall.v,,ALU,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Control_Stall.v,1615538276,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Controler.v,,Control_Stall,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Controler.v,1615538306,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Data_Stall.v,,Controler,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Data_Stall.v,1615538272,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Get_rw_regs.v,,Data_Stall,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Get_rw_regs.v,1615538302,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/ID_Zero_Generator.v,,Get_rw_regs,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/ID_Zero_Generator.v,1615538337,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/LUI_or_AUIPC.v,,ID_Zero_Generator,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/LUI_or_AUIPC.v,1615538360,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Mux2to1b32.v,,LUI_or_AUIPC,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Mux2to1b32.v,1615538322,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Mux4to1b32.v,,Mux2to1b32,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Mux4to1b32.v,1615538292,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG32.v,,Mux4to1b32,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG32.v,1615538279,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_EXE_MEM.v,,REG32,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_EXE_MEM.v,1615538350,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_ID_EXE.v,,REG_EXE_MEM,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_ID_EXE.v,1615538342,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_IF_ID.v,,REG_ID_EXE,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_IF_ID.v,1615546984,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_MEM_WB.v,,REG_IF_ID,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/REG_MEM_WB.v,1615538355,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/RV32iPCPU.v,,REG_MEM_WB,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/RV32iPCPU.v,1615549905,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Regs.v,,RV32iPCPU,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/Regs.v,1615538310,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/SignExt.v,,Regs,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/SignExt.v,1615538315,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/add_32.v,,SignExt,,,,,,,,
+D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sources_1/new/add_32.v,1615538284,verilog,,D:/2021Spring/Arch/Project/RISC-V CPU/RV32i/RV32i.srcs/sim_1/new/Top.v,,add_32,,,,,,,,

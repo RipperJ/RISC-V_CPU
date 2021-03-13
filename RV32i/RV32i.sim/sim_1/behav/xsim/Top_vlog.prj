@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RV32i.srcs/sources_1/new/ALU.v" \
+"../../../../RV32i.srcs/sources_1/new/Control_Stall.v" \
+"../../../../RV32i.srcs/sources_1/new/Controler.v" \
+"../../../../RV32i.srcs/sources_1/new/Data_Stall.v" \
+"../../../../RV32i.srcs/sources_1/new/Get_rw_regs.v" \
+"../../../../RV32i.srcs/sources_1/new/ID_Zero_Generator.v" \
+"../../../../RV32i.srcs/sources_1/new/LUI_or_AUIPC.v" \
+"../../../../RV32i.srcs/sources_1/new/Mux2to1b32.v" \
+"../../../../RV32i.srcs/sources_1/new/Mux4to1b32.v" \
+"../../../../RV32i.srcs/sources_1/new/REG32.v" \
+"../../../../RV32i.srcs/sources_1/new/REG_EXE_MEM.v" \
+"../../../../RV32i.srcs/sources_1/new/REG_ID_EXE.v" \
+"../../../../RV32i.srcs/sources_1/new/REG_IF_ID.v" \
+"../../../../RV32i.srcs/sources_1/new/REG_MEM_WB.v" \
+"../../../../RV32i.srcs/sources_1/new/RV32iPCPU.v" \
+"../../../../RV32i.srcs/sources_1/new/Regs.v" \
+"../../../../RV32i.srcs/sources_1/new/SignExt.v" \
+"../../../../RV32i.srcs/sources_1/new/add_32.v" \
+"../../../../RV32i.srcs/sim_1/new/Top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
