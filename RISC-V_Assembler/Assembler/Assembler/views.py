@@ -270,7 +270,6 @@ def assemble():
                         errInfo = "imm out of range in line {}: {}".format(linenumber, line)
                         break
                     imm = bin2comp20(imm // 2)
-                    print(imm)
                 else: # label
                     if imm not in Label:
                         errInfo = "Error at line {}: the label {} has not existed!".format(linenumber, imm)
@@ -366,7 +365,7 @@ def assemble():
         temphex = temphex.rjust(8, '0')
         result += temphex
 
-        return render_template("Homepage.html", Assembled = result) # Instruction
+        return render_template("Homepage.html", Assembled = result, Disassembled = asm) # Instruction
     except Exception as e:
         return render_template("Homepage.html", WrongAssemble = e)
 
