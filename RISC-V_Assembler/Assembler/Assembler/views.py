@@ -269,7 +269,8 @@ def assemble():
                     if imm < -1048576 or imm > 1048575:
                         errInfo = "imm out of range in line {}: {}".format(linenumber, line)
                         break
-                    imm = bin2comp20(imm)
+                    imm = bin2comp20(imm // 2)
+                    print(imm)
                 else: # label
                     if imm not in Label:
                         errInfo = "Error at line {}: the label {} has not existed!".format(linenumber, imm)
@@ -375,15 +376,16 @@ def disassemble():
     hex = request.form["hex"]
     temp = []
     lines = []
-    for i in hex:
-        if i != '\r' and i != '\n':
-            temp.append(i)
-        elif i == '\r':
-            a = "".join(temp).strip()
-            if a != "":
-                lines.append("".join(temp).strip())
-            temp = []
-    a = "".join(temp).strip()
+    # for i in hex:
+    #     if i != '\r' and i != '\n':
+    #         temp.append(i)
+    #     elif i == '\r':
+    #         a = "".join(temp).strip()
+    #         if a != "":
+    #             lines.append("".join(temp).strip())
+    #         temp = []
+    # a = "".join(temp).strip()
+    print(hex)
     try:
         return render_template("Homepage.html")
     except Exception as e:
