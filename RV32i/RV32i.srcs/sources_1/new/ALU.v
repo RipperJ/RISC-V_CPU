@@ -34,7 +34,8 @@ module ALU(
 	wire signed [31:0] A_temp, B_temp;
 	assign A_temp = A;
 	assign B_temp = B;
-	always @ (A or B or ALU_operation) begin
+	// always @ (A or B or ALU_operation) begin
+    always @ (*) begin
 		case (ALU_operation)
 			5'b00000: begin	// and
 				res = A & B;

@@ -51,6 +51,8 @@ auipc x3, 0x0100    # x3 = 0x00100000 + PC
 ```
 jal x1, SOME_LABEL # or some immediate value as address
 jalr x0, x1, 0 # only immediate value is allowed for the third parameter!
+               # by the way, this is equal to "jr ra" in its effect
+               # you can realize calling a function with "jal" and "jalr"
 ```
 * comments:
 ```
